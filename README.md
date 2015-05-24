@@ -3,7 +3,7 @@ Meteor wrapper for idangerous framework7 (http://www.idangero.us/framework7/)
 
 ## Use it
 ```JavaScript
-meteor add michelalbers:framework7
+meteor add interwebs:framework7
 ```
 
 ## Documentation
