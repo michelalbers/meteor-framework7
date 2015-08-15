@@ -1,7 +1,7 @@
 Package.describe({
   name: 'interwebs:framework7',
   summary: "Framework7 (latest) for Meteor",
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/michelalbers/meteor-framework7'
 });
 
