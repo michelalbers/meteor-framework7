@@ -12,17 +12,28 @@ Package.on_use(function (api) {
   api.add_files('Framework7/dist/js/framework7.min.js', 'client');
 
   api.add_files([
-    'Framework7/dist/img/i-f7.png',
-    'Framework7/dist/img/i-form-calendar.png',
-    'Framework7/dist/img/i-form-comment.png',
-    'Framework7/dist/img/i-form-email.png',
-    'Framework7/dist/img/i-form-gender.png',
-    'Framework7/dist/img/i-form-name.png',
-    'Framework7/dist/img/i-form-password.png',
-    'Framework7/dist/img/i-form-settings.png',
-    'Framework7/dist/img/i-form-tel.png',
-    'Framework7/dist/img/i-form-toggle.png',
-    'Framework7/dist/img/i-form-url.png'
+    'Framework7/dist/img/i-f7-ios.png',
+    'Framework7/dist/img/i-f7-material.png',
+    'i-form-calendar-ios.svg',
+    'i-form-calendar-material.svg',
+    'i-form-comment-ios.svg',
+    'i-form-comment-material.svg',
+    'i-form-email-ios.svg',
+    'i-form-email-material.svg',
+    'i-form-gender-ios.svg',
+    'i-form-gender-material.svg',
+    'i-form-name-ios.svg',
+    'i-form-name-material.svg',
+    'i-form-password-ios.svg',
+    'i-form-password-material.svg',
+    'i-form-settings-ios.svg',
+    'i-form-settings-material.svg',
+    'i-form-tel-ios.svg',
+    'i-form-tel-material.svg',
+    'i-form-toggle-ios.svg',
+    'i-form-toggle-material.svg',
+    'i-form-url-ios.svg',
+    'i-form-url-material.svg'
     ], 'client');
 
 });
