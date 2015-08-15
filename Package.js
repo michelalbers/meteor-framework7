@@ -7,9 +7,8 @@ Package.describe({
 
 Package.on_use(function (api) {
 
-  api.add_files('Framework7/dist/css/framework7.min.css', 'client');
-  api.add_files('Framework7/dist/css/framework7.themes.min.css', 'client');
-  api.add_files('Framework7/dist/js/framework7.min.js', 'client');
+  api.add_files('Framework7/dist/css/framework7.material.css', 'client');
+  api.add_files('Framework7/dist/css/framework7.material.colors.css', 'client');
 
   api.add_files([
     'Framework7/dist/img/i-f7-ios.png',
