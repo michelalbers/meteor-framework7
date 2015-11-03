@@ -1,17 +1,17 @@
 Package.describe({
   name: 'interwebs:framework7',
   summary: "Framework7 (latest) for Meteor",
-  version: '1.0.2',
+  version: '1.0.3',
   git: 'https://github.com/michelalbers/meteor-framework7'
 });
 
 Package.on_use(function (api) {
 
-  api.add_files('Framework7/dist/css/framework7.material.css', 'client');
-  api.add_files('Framework7/dist/css/framework7.material.colors.css', 'client');
-  api.add_files('Framework7/dist/js/framework7.js', 'client');
+  api.addFiles('Framework7/dist/css/framework7.material.css', 'client');
+  api.addFiles('Framework7/dist/css/framework7.material.colors.css', 'client');
+  api.addFiles('Framework7/dist/js/framework7.js', 'client');
 
-  api.add_files([
+  api.addAssets([
     'Framework7/dist/img/i-f7-ios.png',
     'Framework7/dist/img/i-f7-material.png',
     'Framework7/dist/img/i-form-calendar-ios.svg',
